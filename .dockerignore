@@ -1,0 +1,14 @@
+artifacts
+demo
+env
+venv
+logs
+log
+infrastructure
+docs
+Cat_Dog.egg-info
+catdog
+LICENSE
+README.md
+notebooks
+scripts
