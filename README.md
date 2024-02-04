@@ -37,7 +37,7 @@
 
 	6. Then your web app will be available to use. 
 
-	#Policy:
+	# IAM Policy:
 
 	1. AmazonEC2ContainerRegistryFullAccess
 
@@ -45,7 +45,7 @@
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 315865595366.dkr.ecr.us-east-1.amazonaws.com/simple-app
+    - Save the URI: 329818449212.dkr.ecr.ap-south-1.amazonaws.com/catdogclassifier
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -59,7 +59,7 @@
 
 	sudo apt-get upgrade
 	
-	#required
+	#required for installing docker
 
 	curl -fsSL https://get.docker.com -o get-docker.sh
 
